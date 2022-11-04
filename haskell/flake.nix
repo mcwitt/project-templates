@@ -26,6 +26,7 @@
             cabal-install
             ghcid
             haskellPackages.haskell-language-server
+            haskellPackages.cabal-fmt
             ormolu
           ];
         };

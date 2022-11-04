@@ -1,0 +1,11 @@
+cabal-version: 1.12
+name:          hello
+version:       0.0.0
+build-type:    Simple
+
+executable hello
+  main-is:          Main.hs
+  other-modules:    Paths_my_project
+  ghc-options:      -Wall
+  build-depends:    base >=4 && <5
+  default-language: GHC2021

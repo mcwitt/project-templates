@@ -5,7 +5,7 @@
     templates = {
       haskell = {
         path = ./haskell;
-        description = "Simple Haskell project using cabal and hpack";
+        description = "Simple Haskell project using cabal";
       };
     };
   };

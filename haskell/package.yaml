@@ -1,8 +1,0 @@
-default-language: GHC2021
-ghc-options:
-  - -Wall
-dependencies:
-  - base == 4.*
-executables:
-  default:
-    main: Main.hs
