@@ -10,7 +10,7 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
-        haskellPackages = pkgs.haskell.packages.ghc92;
+        haskellPackages = pkgs.haskell.packages.ghc94;
         packageName = "my-package";
       in
       {
